@@ -1,0 +1,28 @@
+{
+  "name": "com.ms.3d_navigation",
+  "version": "1.0.0",
+  "displayName": "3D navigation",
+  "description": "Package to enable fix camera for Ambrosia",
+  "unity": "2021.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "author": {
+    "name": "Joy Albertini",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.guciodevs.simple-min-max-slider": "1.1.2",
+    "com.unity.render-pipelines.high-definition": "12.1.12"
+  },
+  "samples": [
+    {
+      "displayName": "Example scene",
+      "description": "Scene to show how to use the package",
+      "path": "Samples/ExampleScene"
+    }
+  ]
+}
