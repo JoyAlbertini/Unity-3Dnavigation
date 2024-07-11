@@ -15,6 +15,7 @@ namespace Octree.OctreeGeneration
     {
         [Header("Octree Parameters")]
         [SerializeField] private float size = 5;
+        [MinMaxSlider(0, 10)]
         public Vector2Int depth;
         [SerializeField] private LayerMask obstacleMask;
         [Header("Non Convex Meshes")]
@@ -55,7 +56,6 @@ namespace Octree.OctreeGeneration
         private void Start()
         {
             octree = SingletonOctree.Instance.octree;
-            Debug.Log(octree);
             if (octree == null)
             {
                 updateOctree();
@@ -76,7 +76,7 @@ namespace Octree.OctreeGeneration
         public void updateOctree()
         {
             NonConvexCheck();
-            octree = SingletonOctree.Instance.generateOctree(gameObject.transform.position, size, (uint) depth.x, (uint) depth.y, obstacleMask, nonConvexMeshes, OctreeCleanUp);
+            octree = SingletonOctree.Instance.GenerateOctree(gameObject.transform.position, size, (uint) depth.x, (uint) depth.y, obstacleMask, nonConvexMeshes, OctreeCleanUp);
             SetOctreeMesh();
             RetrieveNumberOfNodes();
         }

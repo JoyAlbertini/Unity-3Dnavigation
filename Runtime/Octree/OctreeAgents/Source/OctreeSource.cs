@@ -61,7 +61,7 @@ namespace Octree.Agent
 #if UNITY_EDITOR
         private void OnValidate()
         {
-            CalculatePathAllTargets();
+            //CalculatePathAllTargets();
         }
 #endif
       

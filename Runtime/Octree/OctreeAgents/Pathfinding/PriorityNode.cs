@@ -2,7 +2,6 @@
 using System;
 using Octree.OctreeGeneration;
 
-// From Ascane Github source: https://github.com/supercontact/PathFindingEnhanced/blob/master/Assets/Scripts/Graph.cs
 namespace Octree.Agent.Pathfinding
 {
     public class PriorityNode : IComparable<PriorityNode>

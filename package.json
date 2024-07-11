@@ -14,8 +14,7 @@
     "url": "https://www.unity3d.com"
   },
   "dependencies": {
-    "com.unity.textmeshpro": "3.0.6",
-    "com.guciodevs.simple-min-max-slider": "1.1.2"
+    "com.unity.textmeshpro": "3.0.6"
   },
   "samples": [
     {
