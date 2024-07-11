@@ -1,7 +1,8 @@
 # 3D Navigation with Octree in Unity
 
 ## Builds 
-[Windows build](https://github.com/JoyAlbertini/Unity-3Dnavigation/Extra/Build.zip) (need to unzip it)
+[Windows build](https://github.com/JoyAlbertini/Unity-3Dnavigation/tree/master/Extra/Build.zip) (need to unzip it)
+
 
 ## Full text
 [Project pdf](Extra/bachelorproject.pdf)
