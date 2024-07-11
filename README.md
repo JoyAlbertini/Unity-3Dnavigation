@@ -1,5 +1,8 @@
 # 3D Navigation with Octree in Unity
 
+## Builds 
+[Windows build](Extra/Build.zip) (need to unzip it)
+
 ## Full text
 [Project pdf](Extra/bachelorproject.pdf)
 
