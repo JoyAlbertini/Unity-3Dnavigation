@@ -1,7 +1,7 @@
 # 3D Navigation with Octree in Unity
 
 ## Full text
- [Project pdf]("Extra/bachelorproject.pdf")
+[Project pdf](Extra/bachelorproject.pdf)
 
 ## Project Overview
 
