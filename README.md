@@ -2,7 +2,10 @@
 
 ## Builds 
 [Windows build](Samples/Extra/Build.zip) (need to unzip it)
+## Video 
+![Alt text](Samples/Extra/Unity%203D%20Navigation.gif)
 
+[Watch the video](https://www.youtube.com/watch?v=LUSGlbHQe5Q)
 ## Full text
 [Project pdf](Samples/Extra/bachelorproject.pdf)
 
@@ -34,7 +37,6 @@ This project introduces a 3D navigation system to the Unity game engine, which t
 
 - **Recursive Subdivision**: The octree divides the space recursively into smaller cubes where obstacles are present.
 - **Node Information**: Each node in the octree stores its position, size, depth, and other relevant data.
-- **Collision Detection**: Uses Unity's built-in `Physics.OverlapBox` for detecting collisions.
 
 ### Path Planning
 
