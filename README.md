@@ -1,11 +1,10 @@
 # 3D Navigation with Octree in Unity
 
 ## Builds 
-[Windows build](https://github.com/JoyAlbertini/Unity-3Dnavigation/tree/master/Extra/Build.zip) (need to unzip it)
-
+[Windows build](Samples/Extra/Build.zip) (need to unzip it)
 
 ## Full text
-[Project pdf](Extra/bachelorproject.pdf)
+[Project pdf](Samples/Extra/bachelorproject.pdf)
 
 ## Project Overview
 
@@ -58,8 +57,6 @@ This project introduces a 3D navigation system to the Unity game engine, which t
 - **Realistic Movement**: Agents navigate in 3D space realistically using optimized paths.
 - **Efficiency**: The implemented path planning algorithms perform well in various test scenarios, balancing path length and computation time.
 
-
-Sure, here's an improved version of the text:
 
 ## Installation Guide
 

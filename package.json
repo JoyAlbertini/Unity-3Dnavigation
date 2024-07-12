@@ -21,6 +21,11 @@
       "displayName": "Example scene",
       "description": "Scene to show how to use the package",
       "path": "Samples/ExampleScene"
+    },
+    {
+      "displayName": "Extra content",
+      "description": "Full detail text of the project (PDF) and a build",
+      "path": "Samples/Extra"
     }
   ]
 }
